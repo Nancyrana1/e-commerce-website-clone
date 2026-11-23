@@ -1,19 +1,19 @@
 # Amazon Clone – Frontend Practice Project
 
-A static, Amazon-inspired e-commerce homepage created as my first hands-on frontend project. I built it for educational purposes to practise structuring a web page with HTML and styling a familiar e-commerce layout with CSS.
+A static, Amazon-inspired e-commerce homepage created as my first hands-on frontend project. I built it for educational purposes to practise structuring a webpage with HTML and styling a familiar e-commerce layout with CSS.
 
-This project helped me learn how the different sections of an online shopping homepage fit together, from the navigation bar to promotional product cards and the footer.
+This project helped me understand how the different sections of an online shopping homepage fit together, from the navigation bar to promotional product cards and the footer.
 
 ## Project Overview
 
 The page recreates selected visual elements of an Amazon-style shopping homepage, including:
 
-- A top navigation bar with logo, delivery location, search area, account links, returns, and cart.
+- A top navigation bar with a logo, delivery location, search area, account links, returns, and cart.
 - A secondary navigation panel with shopping links and a deals message.
 - A hero banner with a promotional message.
 - Product/category cards arranged in two rows.
 - A multi-column footer with informational links.
-- Icons supplied through Font Awesome.
+- Interface icons loaded through Font Awesome.
 
 ## Built With
 
@@ -21,26 +21,16 @@ The page recreates selected visual elements of an Amazon-style shopping homepage
 - **CSS3** – layout, spacing, colors, typography, and hover styling.
 - **Font Awesome 6** – interface icons loaded through its CDN.
 
-## Project Structure
+## Repository Files
 
 ```text
 e-commerce-website-clone/
+├── README.md
 ├── ecommerce.html
-├── ecommerce.css
-├── amazon_logo.jpeg
-├── actuallogo.jpeg
-├── beauty.jpg
-├── box1.jpg
-├── box2.jpg
-├── box3.jpg
-├── box4.jpg
-├── box5.jpg
-├── box6.jpg
-├── box7.jpg
-└── box8.jpg
+└── ecommerce.css
 ```
 
-The image filenames above describe the assets referenced by the HTML/CSS. Make sure all referenced image files are present in the repository and use the same spelling and capitalization.
+The HTML and CSS refer to local image files for the logo, hero banner, and product cards. Those image assets are not currently included in the repository, so add the required images to the project folder for the page to display as intended.
 
 ## Run Locally
 
@@ -56,30 +46,34 @@ The image filenames above describe the assets referenced by the HTML/CSS. Make s
    cd e-commerce-website-clone
    ```
 
-3. Open `ecommerce.html` in your browser, or open the folder in your code editor and use a local development extension such as Live Server.
+3. **Check the stylesheet link before previewing:** the current HTML references `dropbydrop.css`, but the stylesheet in this repository is named `ecommerce.css`. Update the stylesheet link in the `<head>` of `ecommerce.html` to `ecommerce.css`.
+
+4. Add the image assets referenced in the HTML/CSS to the project folder.
+
+5. Open `ecommerce.html` in your browser, or use a local development extension such as Live Server.
 
 ## What I Learned
 
 Building this project gave me practical experience with:
 
-- Creating a webpage using semantic HTML elements.
+- Creating a webpage using HTML elements.
 - Styling navigation bars, banners, cards, and footers with CSS.
 - Using Flexbox to arrange content.
-- Working with background images and external icon libraries.
+- Working with background images and an external icon library.
 - Applying hover effects and consistent spacing.
-- Breaking a larger page into smaller, reusable sections.
+- Breaking a larger page into smaller sections.
 
-As my first frontend practice project, this was an important step in building confidence and understanding how a real-world e-commerce interface can be put together.
+As my first frontend practice project, this was an important step in building confidence and understanding how an e-commerce interface can be put together.
 
 ## Future Improvements
 
-Some ideas I would like to explore as I continue learning:
+As I continue learning, I would like to:
 
 - Make the layout responsive across mobile, tablet, and desktop screens.
 - Add working search and category filtering.
 - Add product detail views and shopping-cart interactions.
-- Improve accessibility, keyboard navigation, and semantic markup.
-- Build additional pages and, later, explore backend integration.
+- Improve accessibility and keyboard navigation.
+- Build additional pages and explore backend integration.
 
 ## Disclaimer
 
